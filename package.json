@@ -3,5 +3,8 @@
   "workspaces": [
     "packages/server",
     "packages/ui"
-  ]
+  ],
+  "scripts": {
+    "dev": "npm run dev --ws"
+  }
 }

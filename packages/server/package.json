@@ -7,7 +7,7 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "dev": "node --env-file .env server/index.mjs"
+    "dev": "node --env-file .env index.mjs"
   },
   "keywords": [],
   "author": "",

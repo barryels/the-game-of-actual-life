@@ -47,7 +47,7 @@ async function generateSolutionOptions(count, problem) {
   console.log(completion.choices);
 }
 
-generateSolutionOptions(
-  2,
-  "Given the following problem: Inadequate error handling leading to undefined behavior and potential data corruption."
-);
+// generateSolutionOptions(
+//   2,
+//   "Given the following problem: Inadequate error handling leading to undefined behavior and potential data corruption."
+// );
