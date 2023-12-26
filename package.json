@@ -1,18 +1,7 @@
 {
   "name": "the-game-of-actual-life",
-  "version": "1.0.0",
-  "description": "This is a team-based, digital, turn-based game that allows teams to simulate problems and solutions in a random environment.",
-  "engines": {
-    "npm": ">=10.0.0",
-    "node": ">=20.9.0"
-  },
-  "scripts": {
-    "dev": "node --env-file .env server/index.mjs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "openai": "^4.24.1"
-  }
+  "workspaces": [
+    "packages/server",
+    "packages/ui"
+  ]
 }
